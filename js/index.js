@@ -124,3 +124,18 @@ const superHeroes = {
 console.log(superHeroes.squadName)
 console.log(superHeroes.members[1].name)
 console.log(superHeroes.members[1].powers[2])
+console.log(superHeroes.members[1].age)
+
+
+const amigo1 = ['Ryan', 'Kieran', 'Mark', 'Miguel']
+const nombresDeCuatroLetras = amigo1.filter(nombre => nombre.length === 4); //creo nueva variable, creo la funcion que mira si pasa la prueba de tener 4 letras 
+//nombre es el argumento de la función, es una variable que toma el valor de cada elemento del array original en cada iteración.
+//nombre.length es la expresión que se evalúa en cada iteración, es la longitud de cada nombre.
+console.log(nombresDeCuatroLetras)
+
+const frases = ["labore sea dolor.", "justo rebum dolor", "stet lorem amet."];
+
+const frasesExclamadas = frases.map(function(frase) {
+    return "!" + frase + "!"
+})
+console.log(frasesExclamadas)
